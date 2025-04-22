@@ -99,7 +99,8 @@ header .header-content .btn-group .btn-sign-up:hover {
 
 /* ============= hero ============= */
 .hero {
-  padding: 30px 0 79px;
+  padding: 15px 0;
+  margin-top: 15px;
   background-color: #fff;
 }
 
@@ -169,7 +170,8 @@ header .header-content .btn-group .btn-sign-up:hover {
 }
 
 .hero .btn-group .btn-right:hover {
-  box-shadow: 0px 0px 10px #1ebfc1;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
 .hero .hero-right .img-hero {
@@ -304,4 +306,214 @@ header .header-content .btn-group .btn-sign-up:hover {
   font-size: 1rem;
   font-weight: 500;
   line-height: 33px;
+}
+
+/* ============= features ============= */
+.features {
+  padding: 30px 0;
+  margin-top: 164px;
+}
+
+.features .sub-title-features {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.features .title-features {
+  margin-top: 18px;
+  width: 577px;
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.33;
+}
+
+.features .desc-features {
+  margin-top: 18px;
+  width: 590px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  line-height: normal;
+}
+
+.features .list-item-features {
+  display: flex;
+  margin-top: 80px;
+}
+
+.features .item-2-features {
+  margin-left: 209px;
+}
+
+.features .item-3-features {
+  margin-left: 200px;
+}
+
+.features .image-features {
+  width: 102px;
+  height: 106px;
+}
+
+.features .title-item-features {
+  margin-top: 26px;
+  color: #0d1111;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.features .desc-item-features {
+  color: #9da6a5;
+  font-size: 1.6rem;
+  line-height: 1.69;
+}
+
+.features .desc-item-features-1 {
+  margin-top: 16px;
+  width: 168px;
+}
+
+.features .desc-item-features-2 {
+  margin-top: 16px;
+  width: 223px;
+}
+
+.features .desc-item-features-3 {
+  margin-top: 16px;
+  width: 224px;
+}
+
+/* ============= popular ============= */
+.popular {
+  padding: 30px 0;
+  margin-top: 70px;
+}
+
+.popular .sub-title-features {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.popular .title-popular {
+  margin-top: 18px;
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.popular .desc-and-view-courses {
+  margin-top: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popular .desc-popular {
+  width: 525px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  line-height: 1.78;
+}
+
+.popular .view-courses {
+  color: #1ebfc1;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+}
+
+.popular .list-item-popular-courses {
+  margin-top: 79px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular .list-item-popular-courses .course-wrapper {
+  position: relative;
+}
+
+.popular .list-item-popular-courses .image-courses {
+  width: 359px;
+  height: 393px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.popular .list-item-popular-courses .image-courses:hover {
+  opacity: 0.35;
+  background: #d0efed;
+}
+
+.popular .list-item-popular-courses .desc-courses {
+  position: absolute;
+  top: 322px;
+  left: 17px;
+  right: 17px;
+  padding: 18px 25px 29px;
+  width: 325px;
+  height: 195px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+
+.popular .list-item-popular-courses .desc-courses .title-course {
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.popular .list-item-popular-courses .desc-courses .price {
+  margin-top: 16px;
+  color: #767e7e;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+
+.popular .list-item-popular-courses .desc-courses .price-strong {
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.popular .list-item-popular-courses .desc-courses .desc-course {
+  margin-top: 6px;
+  color: #9da6a5;
+  font-size: 1.4rem;
+  line-height: normal;
+}
+
+.popular .list-item-popular-courses .desc-courses .info-courses {
+  display: flex;
+  margin-top: 18px;
+  color: #9da6a5;
+  font-size: 1.4rem;
+  line-height: normal;
+}
+
+.popular .list-item-popular-courses .info-courses .sub-info-courses {
+  display: flex;
+  align-items: center;
+}
+
+.popular .list-item-popular-courses .info-courses .sub-info-courses::before {
+  display: inline-block;
+  content: " ";
+  margin: 0 10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #1ebfc1;
 }
